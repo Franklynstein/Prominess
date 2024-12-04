@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prominess - Global Attention</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha384-dyBFSW6K1MkQ6AlRvST+vd5xCMp9GZ8yJeNBvzt7B1Gyn5FOcBIdgCA9aMCz8zXf"
+        crossorigin="anonymous"
+    />
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="Asset 1.png" alt="Prominess Logo" class="logo-img">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#charts">Stream Chart</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    
+    <!-- Home Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-content">
+            <p class="hero-subtext">Ready to unleash a viral storm?</p>
+            <h1 class="hero-text">Gear Up For Global Attention</h1>
+            <p class="hero-subtext">Get your music streams rising by:</p>
+            <div id="counter" class="counter">0</div>
+            <button class="hero-button">Discover &raquo;</button>
+        </div>
+    </section>
+
+
+    
+
+    <section id="about" class="profile-tab">
+        <div class="image-section">
+            <img src="sampledp.jpeg" alt="Ajani Hazan" class="profile-image">
+        </div>
+        <div class="text-section">
+            <h1>Adekola Adebayo</h1>
+            <p>
+                Also known as Malikszn, is the visionary CEO of *Prominess*, a company dedicated to helping artists amplify their music careers. 
+                With a deep passion for music promotion and years of experience in the entertainment and digital marketing industries, 
+                Adekola has built a reputation for delivering innovative, result-oriented strategies that drive growth and visibility for artists. 
+            </p>
+            <p>
+                Under his leadership, Prominess has become a trusted partner for musicians looking to distribute their music across major platforms, secure playlist placements, 
+                increase streams, and gain recognition on top charts. Adekola’s expertise lies in combining creativity, data-driven insights, 
+                and emerging trends to craft campaigns that resonate with audiences and leave a lasting impact.
+            </p>
+            <p>
+                Driven by a commitment to excellence and a belief in the transformative power of music, Adekola and his team at <span class="highlight">Prominess</span> 
+                are dedicated to supporting artists in reaching their full potential and achieving their dreams in the competitive music industry.
+            </p>
+        </div>
+    </section>
+    <section id="services" class="expertise">
+        <div class="expertise-content">
+            <!-- Left Column -->
+            <div class="expertise-left">
+                <h2>My Expertise</h2>
+                <p>
+                    I specialize in music promotion and distribution, offering a range of services designed to help artists gain visibility and grow their audience.
+                     With expertise in distributing music across major streaming platforms, pitching to influential playlists, and driving streams to boost track popularity, 
+                     I also focus on pushing music to top charts. Additionally, I run comprehensive music promotion campaigns, including leveraging TikTok for viral marketing to maximize exposure. 
+                    My goal is to help artists elevate their careers through targeted, strategic efforts that increase their reach and success.
+                </p>
+                <div class="counter">
+                    <span class="counter-value" data-target="120">0</span>
+                    <p>Valued Collaborations</p>
+                </div>
+                <div class="counter">
+                    <span class="counter-value" data-target="285">0</span>
+                    <p>Delivered Solutions</p>
+                </div>
+                
+            </div>
+    
+            <!-- Right Column -->
+            <div class="expertise-right">
+                <div class="expertise-item">
+                    <h3>MUSIC DISTRIBUTION</h3>
+                    <p>
+                        Efficiently distribute music across various popular streaming platforms
+                         like Spotify, Apple Music, Amazon Music, and more, ensuring maximum reach and availability for your audience.
+                    </p>
+                </div>
+                <div class="expertise-item">
+                    <h3>PLAYLIST PITCHING</h3>
+                    <p>
+                        Strategically pitch tracks to curated playlists to secure placements that amplify exposure and introduce music to new listeners.
+                    </p>
+                </div>
+                <div class="expertise-item">
+                    <h3>STREAM GROWTH</h3>
+                    <p>
+                        Implement targeted strategies to organically increase the number of streams, helping artists gain traction and build a consistent listener base.
+                    </p>
+                </div>
+                <div class="expertise-item">
+                    <h3>TOP CHARTS CAMPAIGNS</h3>
+                    <p>
+                        Drive efforts to push songs onto top charts, elevating their visibility and credibility in the music industry.
+                    </p>
+                </div>
+                <div class="expertise-item">
+                    <h3>COMPREHENSIVE MUSIC PROMOTIONS</h3>
+                    <p>
+                        Execute tailored music promotion campaigns across multiple channels to enhance the artist's brand and boost recognition.
+                    </p>
+                </div>
+                <div class="expertise-item">
+                    <h3>TIKTOK PROMOTIONS</h3>
+                    <p>
+                        Leverage the power of TikTok by creating engaging campaigns that utilize trending sounds, 
+                        influencers, and creative content to spark virality and grow the artist's audience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+  <!-- Spotify -->
+    <section id="charts" class="spotify-charts">
+        <h2>Top 100 Trending Music Charts</h2>
+        <div class="charts-container">
+            <div class="chart" id="spain">
+                <h3>Spain</h3>
+                <ul class="song-list"></ul>
+            </div>
+            <div class="chart" id="argentina">
+                <h3>Argentina</h3>
+                <ul class="song-list"></ul>
+            </div>
+            <div class="chart" id="brazil">
+                <h3>Brazil</h3>
+                <ul class="song-list"></ul>
+            </div>
+            <div class="chart" id="usa">
+                <h3>USA</h3>
+                <ul class="song-list"></ul>
+            </div>
+            <div class="chart" id="portugal">
+                <h3>Portugal</h3>
+                <ul class="song-list"></ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+
+    
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <!-- Logo Image -->
+                <img src="Asset 4.png" alt="Logo" class="footer-logo-img" />
+                <p class="footer-heading">Let's talk business</p>
+                <!-- Email Button -->
+                <a href="mailto:example@email.com" class="email-button">Contact Us</a>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Charts</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 YourWebsite. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
