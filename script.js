@@ -3,11 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const navLinks = document.querySelector('.nav-links');
 
     hamburger.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
-        // Toggle "open" class on the hamburger for animation
-        hamburger.classList.toggle('open');
+        navLinks.classList.toggle('active'); // Toggle visibility of nav links
     });
 });
+
 
 
 document.addEventListener("DOMContentLoaded", () => {

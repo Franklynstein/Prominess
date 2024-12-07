@@ -579,7 +579,7 @@ header.navbar .logo img {
 }
 
 .footer-links li {
-    margin-bottom: 10px; /* Increase spacing between links */
+    margin-bottom: 8px;
 }
 
 .footer-links a {
@@ -596,7 +596,6 @@ header.navbar .logo img {
 .footer-socials {
     flex: 1;
     min-width: 200px;
-    text-align: center; /* Center-align social icons */
 }
 
 .footer-socials h3 {
@@ -606,7 +605,6 @@ header.navbar .logo img {
 
 .social-icons {
     display: flex;
-    justify-content: center; /* Center icons horizontally */
     gap: 15px;
 }
 
