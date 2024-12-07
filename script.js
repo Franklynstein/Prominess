@@ -1,3 +1,15 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        // Toggle "open" class on the hamburger for animation
+        hamburger.classList.toggle('open');
+    });
+});
+
+
 document.addEventListener("DOMContentLoaded", () => {
     // Existing counter animation
     const counterElement = document.getElementById("counter");
