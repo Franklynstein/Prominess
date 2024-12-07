@@ -4,6 +4,13 @@ body {
     font-family: 'Arial', sans-serif;
     box-sizing: border-box; /* Ensures padding and border are included in element width */
 }
+html {
+    scroll-behavior: smooth;
+}
+
+a:active {
+    color: #1db954; /* Change to your desired highlight color */
+}
 
 /* Navigation Bar */
 header.navbar {
