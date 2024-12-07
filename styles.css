@@ -5,12 +5,6 @@ body {
     box-sizing: border-box; /* Ensures padding and border are included in element width */
 }
 
-@media (max-width: 768px) {
-.hero-section {
-    padding: 50px 20px;
-    }
-}
-
 /* Navigation Bar */
 header.navbar {
     position: fixed;
@@ -78,79 +72,6 @@ header.navbar .logo img {
     max-height: 50px; /* Set a maximum height for the logo image */
     width: auto; /* Maintain aspect ratio */
     display: block;
-}
-
-
-/* Hamburger styles */
-.hamburger {
-    display: none; /* Hide hamburger by default */
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 25px;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-.hamburger span {
-    display: block;
-    height: 3px;
-    background: white;
-    border-radius: 5px;
-    transition: all 0.3s ease;
-}
-
-.hamburger span:nth-child(1) {
-    width: 100%;
-}
-.hamburger span:nth-child(2) {
-    width: 80%;
-}
-.hamburger span:nth-child(3) {
-    width: 60%;
-}
-.nav-links {
-    display: none;
-    flex-direction: column;
-    background: rgba(0, 0, 0, 0.9);
-    padding: 20px;
-}
-
-.nav-links.active {
-    display: flex;
-}
-
-/* Mobile styles */
-@media (max-width: 768px) {
-    .hamburger {
-        display: flex; /* Show hamburger in mobile view */
-    }
-
-    .nav-links {
-        position: absolute;
-        top: 100%;
-        right: 0;
-        background: rgba(0, 0, 0, 0.9);
-        flex-direction: column;
-        width: 200px;
-        gap: 15px;
-        display: none; /* Hide nav links initially */
-        padding: 15px;
-        border-radius: 0 0 5px 5px;
-    }
-
-    .nav-links.active {
-        display: flex; /* Show nav links when active */
-    }
-
-    .nav-links li {
-        text-align: center;
-    }
-
-    .nav-links a {
-        font-size: 1.2rem;
-    }
 }
 
 
@@ -241,7 +162,7 @@ header.navbar .logo img {
     }
 }
 
-
+/* Hero Section */
 /* Profile Section Styles */
 .profile-section {
     position: relative;
