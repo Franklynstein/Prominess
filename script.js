@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Existing counter animation
     const counterElement = document.getElementById("counter");
     let count = 0;
-    const target = 20000000;
-    const duration = 10000; // Total duration of animation in milliseconds
+    const target = 200000000;
+    const duration = 50000; // Total duration of animation in milliseconds
     const increment = Math.ceil(target / (duration / 10)); // Increment based on 10ms intervals
 
     const updateCounter = () => {
