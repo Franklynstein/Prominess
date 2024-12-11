@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     hamburger.addEventListener('click', () => {
         navLinks.classList.toggle('active'); // Toggle visibility of nav links
+        navLinks.classList.toggle('show');
     });
 });
 
