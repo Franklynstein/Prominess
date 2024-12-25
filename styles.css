@@ -728,3 +728,87 @@ header.navbar .logo img {
 
 
 }
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-logo {
+    flex: 1;
+}
+
+.footer-links,
+.footer-socials {
+    flex: 1;
+}
+
+.footer-links ul,
+.footer-socials .social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 10px 0;
+}
+
+.footer-links a,
+.footer-socials a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-socials a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+#unknown-charts-slider {
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide-button {
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.slide-button:hover {
+    opacity: 1;
+}
+
+/* Optional: Add some hover effects for the chart items */
+.chart-item:hover {
+    transform: translateX(8px);
+    transition: transform 0.3s ease;
+}
