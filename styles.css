@@ -340,14 +340,31 @@ header.navbar .logo img {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        padding: 2rem;
     }
 
     .image-section, .text-section {
         flex: unset;
     }
 
+    .image-section {
+        flex: unset;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
     .profile-image {
         width: 80%;
+        max-width: 300px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .text-section {
+        flex: unset;
+        width: 100%;
     }
     .text-section h1 {
         font-size: 1.9rem;
