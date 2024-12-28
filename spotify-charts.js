@@ -7,9 +7,9 @@ const SPOTIFY_CONFIG = {
 };
 
 const COUNTRIES = [
-    { id: 'nigeria', name: 'Nigeria', searchTerm: 'Nigeria Top Songs' },
+    { id: 'nigeria', name: 'Nigeria', searchTerm: 'Top Songs in Nigeria' },
     { id: 'usa', name: 'USA', searchTerm: 'United States Top Songs' },
-    { id: 'uk', name: 'UK', searchTerm: 'United Kingdom Top Songs' },
+    { id: 'uk', name: 'UK', searchTerm: 'UK trending songs' },
     { id: 'south-africa', name: 'South Africa', searchTerm: 'South Africa Top Songs' },
     { id: 'brazil', name: 'Brazil', searchTerm: 'Brazil Top Songs' }
 ];
@@ -59,6 +59,7 @@ class SpotifyCharts {
                 }
             );
             const data = await response.json();
+            //const data = datas.playlists?.items?.filter(item => item !== null) || [];
             
             if (!data.playlists || !data.playlists.items.length) {
                 console.error(`No playlist found for ${country.name}`);
